@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "expense-server-python"
+version = "0.1.0"
+description = ""
+authors = ["Sidra Iqbal <114309741+siqbal181@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mysql = "^0.0.3"
+Flask = "^3.0.3"
+alembic = "^1.13.3"
+pytest = "^8.3.3"
+black = "^24.10.0"
+pylint = "^3.3.1"
+pydantic = "^2.9.2"
+SQLAlchemy = "^2.0.36"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
