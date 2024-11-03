@@ -1,0 +1,2 @@
+class SpendItemStructure:
+  amount: int
